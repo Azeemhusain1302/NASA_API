@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0,0,0,.6);
+}
+main {
+  background-image: url(https://www.ifa.hawaii.edu/info/press-releases/Oumuamua/1I_eso_artistimpression_sm.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+th, td {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0,0,0,.6);
+}
+
+form {
+  width: 100px;
+}
+
+#xCenter {
+  display: flex;
+  justify-content: center;
+}
+#button {
+  min-width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+#subheader {
+  font-size: 10px;
+}
+#formDiv {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  background-image: url(https://worldwind.arc.nasa.gov/agrosphere/images/nasa.gif);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 345px;
+}
+.headerNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: grey;
+}
+.searchBar2 {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  background-color: rgba(0,0,0,.8);
+  min-height: 37px;
+  width: 175px;
+}
+.uomButton {
+  width: 75px;
+}
+
+.submit {
+  border: 1px solid grey;
+  background-color: rgba(0,0,0,.8);
+  min-height: 37px;
+  width: 50px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media (max-width: 1250px){
+  th, td {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 730px){
+  th, td {
+    font-size: 10px;
+  }
+  #subheader {
+    font-size: 7px;
+  }
+  .uomButton {
+    width: 60px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px){
+  th, td {
+    font-size: 7px;
+  }
+  #subheader {
+    font-size: 5px;
+  }
+}
